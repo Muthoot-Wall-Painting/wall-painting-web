@@ -103,13 +103,13 @@ export default function Sidebar() {
           <span className="text-lg">Add Contractor</span>
         </button>
 
-        <button
+{/*         <button
           onClick={() => setShowUploadModal(true)}
           className="flex items-center space-x-3 p-3 rounded-md bg-gray-700 hover:bg-gray-600"
         >
           <FaUpload className="text-xl text-red-400" />
           <span className="text-lg">Upload</span>
-        </button>
+        </button> */}
       </div>
 
       {showUploadModal && (
